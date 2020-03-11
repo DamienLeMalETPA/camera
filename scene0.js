@@ -18,7 +18,7 @@ class scene0 extends Phaser.Scene {
 
 		this.y = 0;
 		this.x = 0;
-		this.cam.pan(0, 50, 1000);
+		this.cam.pan(0, 500, 1000);
 		this.score = 0;
 		this.text = this.add.text(100,300,'scene 0 '+this.score);// this.text remplace le var text pour les scenes
 
